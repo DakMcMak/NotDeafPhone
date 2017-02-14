@@ -5,6 +5,8 @@
  */
 package acmp0108;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Galymzhan
@@ -15,7 +17,9 @@ public class NotDeafPhone {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner in = new Scanner(System.in);
+        int a = in.nextInt();
+        System.out.print(a);
     }
     
 }
